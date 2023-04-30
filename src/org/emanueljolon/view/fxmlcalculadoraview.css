@@ -1,0 +1,88 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+/*
+agregamos el numeral cuando hablamos de una id de css
+cuando hablamos de clase de ss agregamos el .
+tambien podemos agregarle color con el codigo del color
+*/
+
+/* para poder cambiar el fondo de color del boton se usa backgroung color
+*/
+#boton-igual{
+    -fx-background-radius:0 0 15 0;
+}
+
+#boton-ac{
+    -fx-background-radius: 15 0 0 0;
+  
+    -fx-font-family: "CaskaydiaCove NF";
+    -fx-font-size: 20px;
+    -fx-font-weight: Bold;
+}
+
+#boton-del{
+    -fx-text-fill:#ffffff;
+    
+}
+
+.botones-operaciones{
+    -fx-background-color:gray;
+    -fx-text-fill:#ffffff;
+
+}
+.botones-numericos{
+ -fx-font-family: "CaskaydiaCove NF";
+ -fx-font-size: 20px;
+ -fx-font-weight: Bold;
+ -fx-text-fill:#ffffff;
+ -fx-background-color:gray;
+    
+}
+
+.botones-numericos:hover{
+  -fx-background-color: darkslategray;
+  -fx-font-size: 22px;
+}
+
+#boton-inverso-multiplicativo{
+  -fx-text-fill: #ffffff;
+    
+}
+
+#boton-aditivo{
+  -fx-background-radius: 0 0 0 15;
+}
+
+#boton-porcentaje{
+  -fx-background-radius: 0 15 0 0;
+}
+
+
+#boton-potenciacion{
+  -fx-text-fill: #ffffff;
+}
+
+#boton-raiz-cuadrada{
+    -fx-text-fill:#ffffff;
+}
+
+
+/*
+hover es cuando alguien pasa el cursos por encima del boton
+*/
+.botones-operaciones:hover{
+    -fx-background-color: darkslategray;
+    -fx-font-size: 18px;
+}    
+
+
+AnchorPane{
+   -fx-background-color:black;
+   
+}
